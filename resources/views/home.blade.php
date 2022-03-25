@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>QUESTA E' LA HOME PAGE</h1>
+    <h1>{{$messaggio}}</h1>
 </body>
 </html>

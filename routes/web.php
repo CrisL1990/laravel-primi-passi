@@ -14,7 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $data = [
+                "messaggio"=>'QUESTA E\' LA HOME PAGE'
+            ];
+    return view('home', $data);
 });
 
 Route::get('/chiSiamo', function () {
